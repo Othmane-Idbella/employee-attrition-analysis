@@ -1,79 +1,75 @@
-# 📊 Employee Attrition Analysis — Salifort Motors
+# Employee Attrition Analysis — Salifort Motors
 
-## 📌 Project Overview
+## Overview
 
-This project explores employee data from **Salifort Motors** to identify the key factors driving employee attrition. Using exploratory data analysis (EDA), the goal is to uncover patterns in employee behavior and provide actionable insights to improve retention.
-
----
-
-## 🎯 Business Problem
-
-The HR department at Salifort Motors is experiencing high employee turnover but lacks clarity on the underlying causes.
-
-This analysis aims to:
-
-* Identify the main drivers of employee attrition
-* Understand employee characteristics linked to leaving
-* Provide data-driven recommendations to improve retention
+This project looks at employee data from Salifort Motors to better understand why employees are leaving the company. The focus is on exploring patterns in the data and identifying factors that are linked to higher attrition.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Objective
 
-* **Python**
-* **Pandas** – data manipulation
-* **NumPy** – numerical operations
-* **Seaborn & Matplotlib** – data visualization
-* **Jupyter Notebook** – analysis environment
+The main goal of this analysis is to:
+
+* Identify key factors that contribute to employee turnover
+* Explore how different variables relate to attrition
+* Provide insights that could help improve employee retention
 
 ---
 
-## 📂 Dataset Description
+## Tools Used
 
-The dataset contains employee-level information, including:
+* Python
+* Pandas
+* NumPy
+* Seaborn
+* Matplotlib
+* Jupyter Notebook
+
+---
+
+## Dataset
+
+The dataset includes information about employees such as:
 
 * Satisfaction level
-* Last evaluation score
+* Evaluation scores
 * Number of projects
 * Average monthly hours
-* Time spent at company (tenure)
-* Work accidents
+* Tenure
 * Promotion history
-* Department and salary level
-* Attrition status (left/stayed)
+* Salary level
+* Whether the employee left the company
 
 ---
 
-## 🔍 Key Analysis Performed
+## Analysis
 
-* Data cleaning and validation
-* Univariate and bivariate analysis
-* Attrition comparison across key variables
-* Visualization of trends and distributions
+The project includes:
 
----
-
-## 📊 Key Insights
-
-* Employees with **low satisfaction levels** are significantly more likely to leave
-* **High workload** (long working hours and many projects) is strongly associated with attrition
-* Employees with **long tenure but no promotion** show higher turnover
-* Certain **salary levels and departments** have higher attrition rates
+* Data cleaning and basic checks
+* Exploration of individual variables (univariate analysis)
+* Exploration of relationships between variables (bivariate analysis)
+* Visualisation of key patterns in the data
 
 ---
 
-## 💡 Recommendations
+## Key Findings
 
-* Improve employee satisfaction through engagement initiatives
-* Monitor workload and prevent employee burnout
-* Implement clearer promotion pathways
-* Review compensation strategies for high-risk groups
+Some of the main observations from the analysis:
+
+* Employees with lower satisfaction levels are more likely to leave
+* High working hours and heavy workloads are linked to higher attrition
+* Employees who have been at the company longer without promotion tend to leave more
+* Attrition varies across different salary levels and departments
 
 ---
 
-## 📁 Repository Structure
+## Files
 
-* `Employee Attrition Analysis (EDA Project).ipynb` → Full analysis notebook
+* `Employee Attrition Analysis (EDA Project).ipynb` – full analysis
 
+---
 
+## Notes
 
+This project focuses on exploratory data analysis and aims to highlight insights rather than build predictive models.
